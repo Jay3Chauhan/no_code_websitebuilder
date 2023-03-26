@@ -2188,7 +2188,7 @@ div.gjs-com-hover-move {
 .gjs-btn-prim:focus,
 .gjs-select:focus,
 .gjs-select select:focus {
-    outline: none
+    outline: 2px;
 }
 
 .gjs-field input,
@@ -3671,7 +3671,8 @@ div.gjs-com-hover-move {
 .gjs-mdl-header,
 .gjs-mdl-content {
     padding: 10px 15px;
-    clear: both
+    clear: both;
+    border-radius: 10px;
 }
 
 .gjs-mdl-header {
@@ -3865,19 +3866,23 @@ div.gjs-com-hover-move {
 
 .gjs-cm-editor#gjs-cm-htmlmixed {
     padding-right: 10px;
-    border-right: 1px solid rgba(0, 0, 0, .2)
+    /* border-right: 1px solid rgba(0, 0, 0, .2) */
 }
 
 .gjs-cm-editor#gjs-cm-htmlmixed #gjs-cm-title {
-    color: #ff0000
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: #041a28
 }
 
 .gjs-cm-editor#gjs-cm-css {
-    padding-left: 10px
+    padding-left: 10px;
 }
 
 .gjs-cm-editor#gjs-cm-css #gjs-cm-title {
-    color: #ddca7e
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: #041a28
 }
 
 .gjs-cm-editor #gjs-cm-title {
